@@ -3,8 +3,6 @@ import datetime
 from utils.db_connect import connect_to_database
 
 
-
-
 # Функция для выполнения агрегации
 def aggregate_salary_statistics(dt_from, dt_upto, group_type):
     dt_from_parsed = datetime.datetime.fromisoformat(dt_from)
